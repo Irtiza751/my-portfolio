@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { GitHub, Instagram, Linkedin } from 'react-feather';
 
@@ -15,7 +16,7 @@ export default function Header() {
         <div className="w-44">
           <Link href="/">
             <a>
-              <img src="/logo.svg" alt="Muhammad Irtiza" />
+              <Image src="/logo.svg" alt="Muhammad Irtiza" width={250} height={40} />
             </a>
           </Link>
         </div>
