@@ -1,11 +1,11 @@
 export const projects = [
   {
-    title: 'Online Bank',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.",
-    image: '/proj1.webp',
+    title: 'Service Feedback app',
+    description: "This is a feedback app for services with micro interaction and beautyfull animations to take thee feedback from your clients.",
+    image: '/feedpack.png',
     tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: '#',
-    visit: '#',
+    source: 'https://github.com/Irtiza751/my-portfolio',
+    visit: 'https://feedback751.netlify.app/',
     id: 0,
   },
   {
