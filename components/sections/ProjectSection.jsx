@@ -24,10 +24,10 @@ export default function ProjectSection() {
                 </ul>
 
                 <ul className="flex justify-between">
-                  <Link href="#">
+                  <Link href={project.source}>
                     <a className="hover:text-sky-400"><GitHub /></a>
                   </Link>
-                  <Link href="#">
+                  <Link href={project.visit}>
                     <a className="hover:text-sky-400"><ExternalLink /></a>
                   </Link>
                 </ul>
