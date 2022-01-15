@@ -11,7 +11,7 @@ export default function HeroSection() {
           I am a self-taught app developer, with a strong eye for innovative design and a keen understanding of techniques geared towards optimum user experience.
         </p>
       </div>
-      <Link href="/MI-Resume.pdf">
+      <Link href="/Muhammad-Irtiza.pdf">
         <a target="_blank" className="font-bold text-300 text-sky-400 border-2 border-sky-400 inline-block px-8 py-4 rounded hover:bg-sky-300/10">
           My Resume
         </a>
