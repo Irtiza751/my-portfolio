@@ -17,13 +17,13 @@ export default function Footer() {
           </blockquote>
           <div className="grid lg:grid-cols-2 mt-24 border-t-2 border-gray-400/10 pt-14">
             <div className="grid lg:grid-cols-2 gap-y-2 justify-between pr-12">
-              <Link href="#">
+              <Link href="tel:03170228930">
                 <a className="flex flex-col gap-2">
                   <small>CALL</small>
                   <p className="text-sky-400 lg:text-xl">+92 03170228930</p>
                 </a>
               </Link>
-              <Link href="#">
+              <Link href="mailto:muhammad.irtiza751@gamil.com">
                 <a className="flex flex-col gap-2">
                   <small>EMAIL</small>
                   <p className="text-sky-400 lg:text-xl">muhammad.irtiza751@gamil.com</p>
