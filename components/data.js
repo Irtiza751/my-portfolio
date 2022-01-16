@@ -1,8 +1,8 @@
 export const projects = [
   {
     title: 'Service Feedback app',
-    description: "This is a feedback app for services with micro interaction and beautyfull animations to take thee feedback from your clients.",
-    image: '/feedpack.png',
+    description: "This is a mern stack project featuring microinteractions, beautiful animations and full CRUD operation to get the feedback of your product or service from your customers/clients.",
+    image: '/feedback-app.png',
     tags: ['Mongo', 'Express', 'React', 'Node'],
     source: 'https://github.com/Irtiza751/my-portfolio',
     visit: 'https://feedback751.netlify.app/',
