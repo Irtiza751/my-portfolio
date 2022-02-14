@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <>
       <footer id="footer" className="container mt-12 lg:mb-8 bg-gray-800 p-12 rounded">
-        <div class="flex flex-col items-center">
+        <div className="flex flex-col items-center">
           <Link href="/">
             <a>
               <Image src="/logo.svg" alt="Muhammad Irtiza" width={250} height={40} />
