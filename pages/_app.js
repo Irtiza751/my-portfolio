@@ -1,13 +1,32 @@
-import Header from '../components/Header';
-import '../styles/globals.css'
+import Header from "../components/Header";
+import "../styles/globals.css";
+import Script from "next/script";
+import Router from "next/router";
+import Head from "next/head";
+import React, { useEffect } from "react";
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps, router }) {
   return (
     <>
-    <Header />
-    <Component {...pageProps} />
+      <Script
+        strategy="lazyOnload"
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+      />
+
+      <Script strategy="lazyOnload">
+        {`
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+                    page_path: window.location.pathname,
+                    });
+                `}
+      </Script>
+      <Header />
+      <Component {...pageProps} />
     </>
   );
 }
 
-export default MyApp
+export default MyApp;
