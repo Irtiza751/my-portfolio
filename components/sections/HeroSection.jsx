@@ -13,7 +13,7 @@ export default function HeroSection() {
       </div>
       <Link href="/resume.pdf">
         <a target="_blank" className="font-bold text-300 text-sky-400 border-2 border-sky-400 inline-block px-8 py-4 rounded hover:bg-sky-300/10">
-          Check My Resume
+          My Resume
         </a>
       </Link>
     </section>
