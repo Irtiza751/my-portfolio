@@ -8,7 +8,7 @@ export default function HeroSection() {
         <h1 className="text-gray-200 font-extrabold lg:text-6xl md:text-4xl text-3xl">Muhammad Irtiza.</h1>
         <h1 className="text-gray-300 font-extrabold lg:text-6xl md:text-4xl text-3xl mt-4">I build things for the web.</h1>
         <p className="lg:max-w-3xl lg:text-2xl text-lg lg:mt-8 mt-4">
-          I am a self-taught app developer, with a strong eye for innovative design and a keen understanding of techniques geared towards optimum user experience.
+          I am a javascript developer with robust problem-solving skills, and proven experience in creating and designing the software in a test-driven environment.
         </p>
       </div>
       <Link href="/resume.pdf">
