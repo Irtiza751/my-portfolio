@@ -5,6 +5,13 @@ class MyDocument extends Document {
     const initialProps = await Document.getInitialProps(ctx);
     return { ...initialProps };
   }
+  
+  componentDidMount() {
+    console.log(
+      "%cMade with ❤︎️ by Muhammad Irtiza",
+      "background:#3851ff;color:#fff;padding:0.5em 1em;line-height:1.8;"
+    );
+  }
 
   render() {
     return (
