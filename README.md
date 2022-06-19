@@ -1,4 +1,5 @@
 # [Muhammad Iritiza](https://mirtiza.netlify.app/)
+[Live url](https://mirtiza.netlify.app/)
 
 You can use this portfolio template if want by just cloning this repo.
 
