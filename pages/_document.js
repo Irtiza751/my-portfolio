@@ -18,6 +18,7 @@ class MyDocument extends Document {
       <Html>
         <Head>
           <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+          <title>Muhammad Irtiza | Personal Portfolio</title>
         </Head>
         <body className="antialiased text-gray-400 bg-gray-900 font-body">
           <Main />
