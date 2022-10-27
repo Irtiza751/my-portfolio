@@ -8,7 +8,7 @@ export default function TechSection() {
           Technologies
         </h1>
         <p className="text-xl max-w-3xl mx-auto mb-8">
-          I've worked with a range a technologies in the web development world. From Front-end &amp; Design, to Back-end.
+          I've worked with a range of technologies in the web development world. From Front-end &amp; Design, to Back-end.
         </p>
 
         <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-4 mb-12">
