@@ -1,11 +1,11 @@
 export const projects = [
   {
-    title: 'Service Feedback app',
-    description: "This is a mern stack project featuring microinteractions, beautiful animations and full CRUD operation to get the feedback of your product or service from your customers/clients.",
-    image: '/feedback-app.png',
-    tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://github.com/Irtiza751/my-portfolio',
-    visit: 'https://feedback751.netlify.app/',
+    title: 'Genz Commerce',
+    description: "This is an E-commerce build with reactjs and supabase, with all standard e-commerce functionalies, and 3rd party payment integration.",
+    image: '/project.png',
+    tags: ['Reactjs', 'Typescript', 'Supabase', 'Tailwindcss'],
+    source: 'https://github.com/Irtiza751/genzcom',
+    visit: 'https://genzcom.netlify.app/',
     id: 0,
   },
   {
