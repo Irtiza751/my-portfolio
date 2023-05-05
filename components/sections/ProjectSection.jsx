@@ -15,7 +15,7 @@ export default function ProjectSection() {
         {projects.map(project => {
           return (
             <div className="transition duration-150 transform hover:-translate-y-2 rounded" key={project.id}>
-              <Image src={project.image} alt={project.title} width={384} height={240} className="rounded object-fit aspec-square" />
+              <Image src={project.image} alt={project.title} width={384} height={250} className="rounded object-fit aspec-square" />
               <div className="text-left">
                 <h4 className="text-sky-400 font-semibold text-xl border-b-2 mt-4 border-gray-400/10 mb-4 pb-4">{project.title}</h4>
                 <p className="text-lg mb-8">{project.description}</p>
