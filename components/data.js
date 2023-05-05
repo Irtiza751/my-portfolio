@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Genz Commerce',
-    description: "This is an E-commerce build with reactjs and supabase, with all standard e-commerce functionalies, and 3rd party payment integration.",
+    description: "This is an E-commerce build with reactjs and supabase, with all standard e-commerce functionalies, and 3rd party payment.",
     image: '/proj1.jpg',
     tags: ['Reactjs', 'Typescript', 'Supabase', 'Tailwindcss'],
     source: 'https://github.com/Irtiza751/genzcom',
