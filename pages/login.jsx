@@ -22,7 +22,7 @@ export default function Login() {
                     <h1 className="text-5xl font-bold text-white my-2">
                         Welcome Irtiza.
                     </h1>
-                    <p className="text-2xl">It is nice to you again.</p>
+                    <p className="text-2xl">It is nice to see you again.</p>
                 </div>
 
                 <div className="mb-10">
