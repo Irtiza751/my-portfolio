@@ -36,7 +36,7 @@ export default function ProjectSection() {
           )
         })}
       </div>
-      <Link href="https://github.com/Irtiza751">
+      <Link href="https://github.com/Irtiza751?tab=repositories">
         <a className="flex items-center w-80 mx-auto justify-center gap-4 font-bold text-300 text-sky-400 border-2 border-sky-400 px-8 py-4 rounded hover:bg-sky-300/10">
           <span>Browse All Projects</span>
           <GitHub />
