@@ -11,7 +11,7 @@ export const projects = [
   {
     title: 'Marketing Portfolio',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.",
-    image: '/proj2.webp',
+    image: '/proj2.jpg',
     tags: ['React', 'JavaScript', 'Sass'],
     source: 'https://github.com/Irtiza751/',
     visit: '#',
